@@ -17,6 +17,7 @@ spec:
       containers:
         - name: whoami
           image: alpine
+          command: ["sleep", "infinity"]
           ports:
             - containerPort: 80
 ---
