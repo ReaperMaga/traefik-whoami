@@ -16,8 +16,7 @@ spec:
     spec:
       containers:
         - name: whoami
-          image: alpine
-          command: ["sleep", "infinity"]
+          image: traefik/whoami
           ports:
             - containerPort: 80
 ---
