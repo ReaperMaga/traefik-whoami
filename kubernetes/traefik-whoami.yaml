@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: whoami
-          image: ghcr.io/aiducia/backend:sha-0109bc0
+          image: traefik/whoami
           ports:
             - containerPort: 80
 ---
